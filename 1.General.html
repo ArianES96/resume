@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword" content="Ефимов" />
+    <meta name="discription" content="Резюме" />
+    <title>HTMLКурс</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <style>
+      h1 {
+        color: darkslategrey;
+      }
+      h3 {
+        color: dimgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Моё резюме</h1>
+    <hr color="Blue" size="1" width="50%" />
+    <h3>Ефимов А.С.</h3>
+    <h6>
+      <strong> <em>Томпонский район</em> </strong>
+    </h6>
+    <img src="photo/IdolGym.jpg" width="200" alt="" />
+    <br />
+    <br />
+    <p>
+      "Это мой второй курс по HTML & CSS. После этого курса приступлю к изучению
+      JavaScript."
+    </p>
+    <p>
+      <em>
+        ссылка на мою социальную сеть:
+        <a href="https://vk.com/bernabeu_santiagorm" target="_blank"> VK</a></em
+      >
+    </p>
+    <h2>Моё хобби:</h2>
+    <ul>
+      <li>Спорт;</li>
+      <li>Чтение;</li>
+      <li>Программирование;</li>
+      <li>Экономика.</li>
+    </ul>
+    <h2>Опыт работы</h2>
+    <table>
+      <thead>
+        <th>Наименование</th>
+        <th>Дожность</th>
+        <th>Период</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>"МУП "ЯПАК"</td>
+          <td>"Инженер по эксплуатации"</td>
+          <td>"2021"</td>
+        </tr>
+        <tr>
+          <td>"ПАО Ростелеком"</td>
+          <td>"Специалист АХУ"</td>
+          <td>"2021-2022"</td>
+        </tr>
+        <tr>
+          <td>"ГБУ "НВК Саха"</td>
+          <td>"Главный Специалист ФЭО"</td>
+          <td>"2022- до н.в."</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Связаться со мной:</h2>
+    <form>
+      <div>
+        <label for="name">Ваше имя:</label>
+        <input type="name" id="text" placeholder="Введите имя" />
+      </div>
+      <div>
+        <label for="Email">Ваш email:</label>
+        <input type="Email" id="Email" placeholder="Введите эл.почту" />
+      </div>
+      <div>
+        <label for="messege">Ваше сообщение</label>
+        <br />
+        <textarea
+          id="text"
+          cols="40"
+          rows="5"
+          placeholder="Напишите..."
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Отправить</button>
+        <button type="reset">Сброс</button>
+      </div>
+    </form>
+  </body>
+</html>
